@@ -2,6 +2,7 @@ import About from "./sections/About"
 import Features from "./sections/Features"
 import Hero from "./sections/Hero"
 import NavBar from "./sections/NavBar"
+import FloatingImage from "./sections/Story"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Features />
+      <FloatingImage />
     </main>
   )
 }
