@@ -1,4 +1,5 @@
 import About from "./sections/About"
+import Contact from "./sections/Contact"
 import Features from "./sections/Features"
 import Hero from "./sections/Hero"
 import NavBar from "./sections/NavBar"
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Features />
       <FloatingImage />
+      <Contact />
     </main>
   )
 }
